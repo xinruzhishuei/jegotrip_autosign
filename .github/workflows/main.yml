@@ -3,7 +3,7 @@ name: 'jegotrip_sign'
 on:
   push:
   schedule:
-    - cron: '40 5 * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   autosign:
